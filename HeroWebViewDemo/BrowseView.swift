@@ -27,7 +27,14 @@ struct BrowseView: View {
             browser.open(site)
           } label: {
             VStack(spacing: 0) {
-              Text(site.service + badge(site)).font(.caption2).opacity(0.8)
+              HStack(spacing: 3) {
+                Text(site.service)
+                if let badge = badge(site) {
+                  Image(systemName: badge)
+                }
+              }
+              .font(.caption2)
+              .opacity(0.8)
               Text(site.name).font(.caption).bold()
             }
             .lineLimit(1)
@@ -65,11 +72,11 @@ struct BrowseView: View {
     .padding(.top, 8)
   }
 
-  private func badge(_ site: DemoSite) -> String {
+  private func badge(_ site: DemoSite) -> String? {
     switch browser.outcomes[site] {
-    case true?: " ✓"
-    case false?: " ✗"
-    case nil: ""
+    case true?: "checkmark.circle.fill"
+    case false?: "xmark.circle.fill"
+    case nil: nil
     }
   }
 
