@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* AppDelegate.swift */; };
+		C10000000000000000000002 /* HeroWebViewDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* HeroWebViewDemoApp.swift */; };
+		C10000000000000000000003 /* DemoTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* DemoTabsView.swift */; };
+		C10000000000000000000004 /* IntegrationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* IntegrationStep.swift */; };
+		C10000000000000000000005 /* IntegrationGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* IntegrationGuideView.swift */; };
+		C10000000000000000000006 /* DemoSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* DemoSite.swift */; };
+		C10000000000000000000007 /* AddressToURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* AddressToURL.swift */; };
+		C10000000000000000000008 /* BrowserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* BrowserModel.swift */; };
+		C10000000000000000000009 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* WebViewContainer.swift */; };
+		C1000000000000000000000A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* BrowseView.swift */; };
+		C1000000000000000000000B /* DemoTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* DemoTour.swift */; };
+		C10000000000000000000020 /* AddressToURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000020 /* AddressToURLTests.swift */; };
+		C10000000000000000000021 /* DemoTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000021 /* DemoTourTests.swift */; };
+		C10000000000000000000030 /* HeroWebView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10000000000000000000030 /* HeroWebView.xcframework */; };
+		C10000000000000000000031 /* HeroWebView.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B10000000000000000000030 /* HeroWebView.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		J10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = HeroWebViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F10000000000000000000003 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C10000000000000000000031 /* HeroWebView.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* HeroWebViewDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWebViewDemoApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* DemoTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTabsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* IntegrationStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationStep.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* IntegrationGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationGuideView.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* DemoSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSite.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* AddressToURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressToURL.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* BrowserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserModel.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* DemoTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTour.swift; sourceTree = "<group>"; };
+		B10000000000000000000020 /* AddressToURLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressToURLTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000021 /* DemoTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTourTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000030 /* HeroWebView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HeroWebView.xcframework; path = HeroWebView.xcframework; sourceTree = HERO_WEB_VIEW_SDK_DIR; };
+		D10000000000000000000001 /* HeroWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10000000000000000000002 /* HeroWebViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroWebViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000030 /* HeroWebView.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000003 /* HeroWebViewDemo */,
+				A10000000000000000000004 /* HeroWebViewDemoTests */,
+				A10000000000000000000005 /* Frameworks */,
+				A10000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000001 /* HeroWebViewDemo.app */,
+				D10000000000000000000002 /* HeroWebViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000003 /* HeroWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* AppDelegate.swift */,
+				B10000000000000000000002 /* HeroWebViewDemoApp.swift */,
+				B10000000000000000000003 /* DemoTabsView.swift */,
+				B10000000000000000000004 /* IntegrationStep.swift */,
+				B10000000000000000000005 /* IntegrationGuideView.swift */,
+				B10000000000000000000006 /* DemoSite.swift */,
+				B10000000000000000000007 /* AddressToURL.swift */,
+				B10000000000000000000008 /* BrowserModel.swift */,
+				B10000000000000000000009 /* WebViewContainer.swift */,
+				B1000000000000000000000A /* BrowseView.swift */,
+				B1000000000000000000000B /* DemoTour.swift */,
+			);
+			path = HeroWebViewDemo;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000004 /* HeroWebViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000020 /* AddressToURLTests.swift */,
+				B10000000000000000000021 /* DemoTourTests.swift */,
+			);
+			path = HeroWebViewDemoTests;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000030 /* HeroWebView.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* HeroWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10000000000000000000002 /* Build configuration list for PBXNativeTarget "HeroWebViewDemo" */;
+			buildPhases = (
+				F10000000000000000000001 /* Sources */,
+				F10000000000000000000002 /* Frameworks */,
+				F10000000000000000000003 /* Embed Frameworks */,
+				F10000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroWebViewDemo;
+			productName = HeroWebViewDemo;
+			productReference = D10000000000000000000001 /* HeroWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10000000000000000000002 /* HeroWebViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10000000000000000000003 /* Build configuration list for PBXNativeTarget "HeroWebViewDemoTests" */;
+			buildPhases = (
+				F10000000000000000000005 /* Sources */,
+				F10000000000000000000006 /* Frameworks */,
+				F10000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				I10000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = HeroWebViewDemoTests;
+			productName = HeroWebViewDemoTests;
+			productReference = D10000000000000000000002 /* HeroWebViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					E10000000000000000000002 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = E10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = G10000000000000000000001 /* Build configuration list for PBXProject "HeroWebViewDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000001;
+			productRefGroup = A10000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* HeroWebViewDemo */,
+				E10000000000000000000002 /* HeroWebViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000001 /* AppDelegate.swift in Sources */,
+				C10000000000000000000002 /* HeroWebViewDemoApp.swift in Sources */,
+				C10000000000000000000003 /* DemoTabsView.swift in Sources */,
+				C10000000000000000000004 /* IntegrationStep.swift in Sources */,
+				C10000000000000000000005 /* IntegrationGuideView.swift in Sources */,
+				C10000000000000000000006 /* DemoSite.swift in Sources */,
+				C10000000000000000000007 /* AddressToURL.swift in Sources */,
+				C10000000000000000000008 /* BrowserModel.swift in Sources */,
+				C10000000000000000000009 /* WebViewContainer.swift in Sources */,
+				C1000000000000000000000A /* BrowseView.swift in Sources */,
+				C1000000000000000000000B /* DemoTour.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000020 /* AddressToURLTests.swift in Sources */,
+				C10000000000000000000021 /* DemoTourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		I10000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10000000000000000000001 /* HeroWebViewDemo */;
+			targetProxy = J10000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		H10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HERO_WEB_VIEW_SDK_DIR = "$(SRCROOT)/HeroWebViewSDK";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		H10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				HERO_WEB_VIEW_SDK_DIR = "$(SRCROOT)/HeroWebViewSDK";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		H10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroWebViewDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HeroWebView Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hero.webviewdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		H10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroWebViewDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HeroWebView Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hero.webviewdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		H10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hero.webviewdemo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroWebViewDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroWebViewDemo";
+			};
+			name = Debug;
+		};
+		H10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hero.webviewdemo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroWebViewDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroWebViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10000000000000000000001 /* Build configuration list for PBXProject "HeroWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000001 /* Debug */,
+				H10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10000000000000000000002 /* Build configuration list for PBXNativeTarget "HeroWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000003 /* Debug */,
+				H10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10000000000000000000003 /* Build configuration list for PBXNativeTarget "HeroWebViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H10000000000000000000005 /* Debug */,
+				H10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P10000000000000000000001 /* Project object */;
+}
