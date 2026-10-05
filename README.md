@@ -7,18 +7,34 @@ It builds against the SDK the way any other app does.
 ## The SDK
 
 The project reads the xcframework from `HERO_WEB_VIEW_SDK_DIR`, which defaults
-to `HeroWebViewSDK/` next to the project. The rc updater serves the latest
-release build:
+to `HeroWebViewSDK/` next to the project. `release.sh` fills that directory
+itself: it asks the rc updater for the latest SDK, the zip the
+`hero-rc-ios-webview-sdk` CI job publishes with every rc tag, and downloads it
+only when its version differs from the one in `HeroWebViewSDK/.version`.
+
+- `https://rc-updates.hero.io/v2/api/latest?os=webview-sdk-ios` redirects to
+  the zip; its file name carries the version.
+- The zip also carries the SDK's `README.md`, with the integration steps the
+  Integrate tab shows.
+
+## Build
+
+Requirements: Xcode with the iOS 18 SDK or later; `--sim` needs an iPhone
+simulator on Apple silicon (the SDK's simulator slice is arm64).
 
 ```
-curl -L -o HeroWebViewSDK-ios.zip "https://rc-updates.hero.io/v2/api/latest?os=webview-sdk-ios"
-unzip HeroWebViewSDK-ios.zip -d HeroWebViewSDK
+./release.sh          # build/Build/Products/Release-iphoneos/HeroWebViewDemo.app
+./release.sh --sim    # builds for a simulator, boots it, installs and launches the app
 ```
 
-The zip also carries the SDK's `README.md`, with the integration steps the
-Integrate tab shows.
+Both work from a clean checkout (`git clean -xdff`). The device build is
+unsigned unless `DEVELOPMENT_TEAM=<team id>` is set. `--sim` uses a booted
+iPhone, else the newest runtime's first iPhone; set `SIMULATOR_APP` when the
+Simulator window lives outside the selected Xcode.
 
-## Build and test
+## Tests
+
+Once `release.sh` has fetched the SDK:
 
 ```
 xcodebuild test -project HeroWebViewDemo.xcodeproj \
