@@ -1,4 +1,3 @@
-# The root .gitignore drops gn's generated *.xcodeproj; this one is source.
-!HeroWebViewDemo.xcodeproj
+HeroWebViewSDK/
 xcuserdata/
 *.xcworkspace
